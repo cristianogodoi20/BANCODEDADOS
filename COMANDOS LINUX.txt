@@ -1,0 +1,68 @@
+CD- É um acrônimo para mudar diretório
+
+cd/ abre diretório raiz
+cd~ abre diretório corrente usuário logado
+cd... Voltar ao diretório
+Lista de arquivos
+
+Ls- i coluna detalhada
+Ls - a arquivos ocultos
+Ls - s conteúdo com tamanho alocado de cada arquivo
+Ls - x classifica por ordem alfabética
+Ls --Help - ajuda
+Touch - Cria arquivos vazios além de mudar a data e a hora
+
+Touch - a acesso a hora
+Touch - m modificação da hora atual
+Cat- ( concatenar) novo arquivo sendo um dos mais úteis para aprender. Permite criar e unir arquivos.
+
+Criar aquivos
+unir arquivos
+Exibir arquivos
+Mv- ( Mover Arquivos)
+
+Mv-b : gera cópia de segurança se o arquivo de destino já existir.(backup)
+-f : move o arquivo sem pedir confirmação (mesmo que já exista um arquivo no destino com o mesmo nome).
+-i : move o arquivo, mas pede confirmação caso já exista um arquivo no destino com o mesmo nome.
+-v : exibe os nomes dos arquivos afetados pelo comando.
+−−help : exibe as opções do comando.
+−−version : exibe informações sobre o comando
+mv- u -- Substitui o arquivo de destino
+Cp ( Copias arquivo)
+
+-b : gera cópia de segurança se o arquivo de destino já existir.
+-f : substitui arquivos existentes sem pedir confirmação.
+-i : pede permissão antes de substituir arquivos existentes.
+-l : cria um link para o arquivo de origem ao invés de copiar o arquivo.
+-r : copia arquivos e subdiretórios (recursivo).
+-u : copia apenas quando o arquivo de origem é mais novo que o arquivo de destino ou quando o arquivo de destino não existe.
+-v : lista os arquivos copiados.
+−−help : lista as opções disponíveis com o comando.
+−−version : exibe informação sobre o comando.
+Mkdir - (Cria diretórios)
+
+-m ou −−mode : define as permissões do diretório.
+-p ou −−parents : cria hierarquia de diretórios.
+−−help : lista as opções disponíveis com o comando.
+−−version : exibe informação sobre o comando.
+
+
+Find - (procurar por arquivos e pesquisa arquivos  em uma hierarquia de diretórios.)
+
+-type: procura diretórios de um determinado tipo.
+-name : permite especificar o nome do arquivo
+
+
+Rmdir - Remove diretorios especificos nas linhas de comando.
+
+
+
+Env - Executa um comando em um ambiente modificado.
+
+
+
+Pwd - Imprime o nome.
+
+
+
+Dir - Exibe arquivos.
